@@ -1,20 +1,30 @@
 // without prompt user name and age
-const userName = "Archana";
-const userAge = 30;
+// const userName = "Archana";
+// const userAge = 30;
 
-console.log(`Name: ${userName}`);
-console.log(`Age: ${userAge}`);
+// console.log(`Name: ${userName}`);
+// console.log(`Age: ${userAge}`);
 
-if (userAge >= 18 && userAge <= 30) {
-  console.log(`${userName} is a college student.`);
-  console.log('And he/she learning computer science');
-}
+// if (userAge >= 18 && userAge <= 30) {
+//   console.log(`${userName} is a college student.`);
+//   console.log('And he/she learning computer science');
+// }
 
 const userName1 = prompt("Please enter a name");
 const userAge1 = prompt("Please enter a age");
 
 console.log(`Name: ${userName1}`);
 console.log(`Age: ${userAge1}`);
+
+if (userAge1 >= 0 && userAge1 <= 4) {
+  console.log(`${userName1} is a kid.`);
+  console.log('And he/she playing.');
+}
+
+if (userAge1 >= 5 && userAge1 <= 17) {
+  console.log(`${userName1} is a school student.`);
+  console.log('And he/she learning science and maths');
+}
 
 if (userAge1 >= 18 && userAge1 <= 24) {
   console.log(`${userName1} is a college student.`);
